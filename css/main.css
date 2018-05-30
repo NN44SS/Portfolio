@@ -1,0 +1,346 @@
+.bg-secondary {
+  background-color: #043294!important;
+}
+
+.headerSectionWrapper {
+  background-color: #3955e8;
+}
+
+.headerSectionWrapper h1{
+  text-align: center;
+  color: #ffffff;
+  font-size: 5em;
+  font-family: Lato;
+  padding-bottom: 20px;
+}
+
+.headerSectionWrapper h2{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.75em;
+  font-family: Lato;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.headerSectionWrapper hr{
+  max-width: 34rem;
+  background-color: #ffffff;
+  height: 6px;
+}
+
+.nopadding{
+  padding: 0;
+}
+
+.cartoonPicContainer{
+  margin: auto;
+  width: 100%;
+}
+
+.cartoonPicContainer img{
+  margin: auto;
+  width: 300px;
+  display: block;
+  padding-top: 200px;
+  padding-bottom: 50px;
+}
+
+.portfolioHeader{
+  padding-bottom: 25px;
+}
+
+.portfolioHeader h1{
+  color: #3955e8;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+
+.portfolioHeader hr{
+  max-width: 14rem;
+  background-color: #3955e8;
+  height: 6px;
+}
+
+.portfolioImage img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border: solid 3px #000000;
+  border-radius: 10px;
+}
+
+.portfolioOverlayOne {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3955e8;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #000000;
+  border-radius: 10px;
+}
+
+.portfolioOverlayTwo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3955e8;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #000000;
+  border-radius: 10px;
+}
+
+.portfolioOverlayThree {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 92%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3955e8;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 3px #000000;
+  border-radius: 10px;
+}
+
+
+
+.portfolioWrapperOne:hover .portfolioOverlayOne {
+  opacity: 1;
+}
+
+.portfolioWrapperTwo:hover .portfolioOverlayTwo {
+  opacity: 1;
+}
+
+.portfolioWrapperThree:hover .portfolioOverlayThree {
+  opacity: 1;
+}
+
+.overlayText {
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlayText hr{
+  background-color: #ffffff;
+  height: 1px;
+}
+
+.overlayText h4{
+  font-size: 1.2125em;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portfolioSectionWrapper{
+  padding-bottom: 80px;
+}
+
+.aboutSectionWrapper {
+  background-color: #3955e8;
+}
+
+
+.aboutSectionHeader h1{
+  color: #ffffff;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+
+.aboutSectionHeader hr{
+  max-width: 14rem;
+  background-color: #ffffff;
+  height: 6px;
+}
+
+.aboutSectionHeader {
+  padding-bottom: 25px;
+}
+
+.aboutSectionWrapper p {
+  color: #ffffff;
+}
+
+.resumeButton {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  height: 60px;
+  width: 180px;
+  background-color: #3955e8;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+}
+
+.resumeButton:hover {
+  background-color: #ffffff;
+}
+
+.resumeButton:hover #resumeTxt{
+  color: #043294;
+}
+
+.resumeButton:hover .fa{
+  color: #043294;
+}
+
+#resumeTxt{
+  margin-left: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#resumeGlyph {
+  color: #ffffff;
+}
+
+.fa {
+  color: #ffffff;
+  padding-right: 5px;
+}
+
+.resumeDL{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-control {
+  color: #043294;
+}
+
+.btn-outline-light:hover{
+  background-color: #043294;
+}
+
+#contactMeHeader{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+@media (min-width: 576px){
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px){}
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px){
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px){
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .portfolioWrapperOne{
+    max-width: 70%!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .portfolioOverlayOne{
+    max-width: 67%;
+    max-height: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .portfolioWrapperTwo{
+    max-width: 70%!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .portfolioOverlayTwo{
+    max-width: 67%;
+    max-height: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .portfolioWrapperThree{
+    max-width: 70%!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .portfolioOverlayThree{
+    max-width: 67%;
+    max-height: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+/*#3955e8
+
+
+
+/*
